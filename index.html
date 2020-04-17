@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- ctrl+/ for comment the lines    -->
+
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Compiled and minified CSS  of materialized css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Materialize icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Cafe King</title>
+  </head>
+  <body style="background:#6f4037">
+
+
+
+
+    <!-- navigation bar -->
+    <section class="navbatr">
+    <nav class="nav-extended">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo" style="padding-left: 10px">Cafe King</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#" onclick="toggleModal()"><i class="material-icons">home </i> </a></li>
+          <li><a href="#" onclick="toggleModal()"><i class="material-icons">info</i> </a></li>
+          <li><a href="#"onclick="toggleModal()"><i class="material-icons">store</i> </a></li>
+          <li><a href="#"onclick="toggleModal()"><i class="material-icons">mood</i></a></li>
+          <li><a href="#"onclick="toggleModal()"><i class="material-icons">contact_phone</i> </a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#" onclick="toggleModal()"><i class="material-icons">home </i>Home </a></li>
+          <li><a href="#" onclick="toggleModal()"><i class="material-icons">info</i> Contact</a></li>
+          <li><a href="#"onclick="toggleModal()"><i class="material-icons">store</i> Caffee</a></li>
+          <li><a href="#"onclick="toggleModal()"><i class="material-icons">mood</i>Surprise!</a></li>
+          <li><a href="#"onclick="toggleModal()"><i class="material-icons">contact_phone</i> Contact</a></li>
+
+          </ul>
+    </ul> 
+  </section>
+    <!-- model trigger button -->
+    <!-- <button href="#" onclick="toggleModal()">
+      Modal
+    </button> -->
+<!-- full width slider -->
+<section class="fslider">
+
+    <div class="slider">
+  <ul class="slides">
+    <li>
+      <img src="images/banner1.jpg" alt="">
+      <div class="caption white-text">
+        <h3>CaffeeKing-Quality Caffee</h3>
+        <h5>We serve one of the best Coffee around</h5>
+      </div> 
+    </li>
+    <li>
+        <img src="images/banner2.jpg" alt="">
+        <div class="caption white-text">
+          <h3>CaffeeKing-Finnest Caffee</h3>
+          <h5>Free Home Delivery!!</h5>
+        </div> 
+      </li>
+      <li>
+          <img src="images/banner3.jpg" alt="">
+          <div class="caption white-text">
+            <h3>CaffeeKing-Tastest Coffee</h3>
+            <h5>Taste!</h5>
+          </div> 
+        </li>
+  </ul>
+  
+    </div>
+  </section>
+
+  <section class="description">
+
+
+    <div class="section white center">
+        <h2 class="header">CafeKing - Ultimate Quality Caffee</h2>
+        <div class="row container center ">
+
+          <!-- totally 12 columns.we separate based on our need.like l8 and l4(8+4=12).in mobile screen we use the entire 12 cols for one portion.s12 -->
+          
+          <div class="col center l8 s12 move">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptas adipisci quia distinctio, ipsam beatae, asperiores molestias est hic suscipit numquam voluptate incidunt repellendus? Velit id nulla libero recusandae natus eveniet a sit inventore voluptas. Quidem explicabo laborum non nihil minima veritatis est, corrupti totam fugiat iste hic obcaecati laboriosam facilis cum molestias veniam nisi repellendus nostrum vitae corporis ipsum dignissimos rem modi fugit? Ut corrupti minima quidem libero sunt illum explicabo animi doloribus omnis, magnam veritatis harum aut, beatae culpa non commodi saepe possimus est labore! In quam incidunt unde ut aperiam impedit assumenda sint fugiat hic. Saepe, accusamus?
+          </div>
+          <div class="col center l4 s12 move">
+            <img src="images/caffee1.jpg" style="object-fit: contain" height="200" width="auto" alt="">
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="fcard">
+
+
+    <div class="row" style="padding-left:50px;padding-right: 50px">
+
+      <div class="col s12 m12 l4" style="padding:50px 5px">
+      
+  <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="images/item1.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Caffee oneo<i class="material-icons right">more_vert</i></span>
+       
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Caffee oneo<i class="material-icons right">close</i></span>
+        <p>Price: $9</p>
+      </div>
+    </div>
+      
+      </div>
+      <div class="col s12 m12 l4" style="padding:50px 5px">
+      
+          <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/item2.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Black Coffee<i class="material-icons right">more_vert</i></span>
+               
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Black Coffee<i class="material-icons right">close</i></span>
+                <p>Price: $7</p>
+              </div>
+            </div>
+      
+      
+      </div>
+      <div class="col s12 m12 l4" style="padding:50px 5px">
+      
+          <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/item5.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Caffee leeo<i class="material-icons right">more_vert</i></span>
+               
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Caffee leeo<i class="material-icons right">close</i></span>
+                <p>Price: $5</p>
+              </div>
+            </div>
+      
+      
+      
+      
+      </div>
+    </div>
+  </section>
+
+
+  <section class="fparallax">
+
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/bg3.jpg"></div>
+    </div>
+
+    
+  </section>
+
+  <section class="fabout">
+
+    <div class="section white center">
+
+      <div class="row container">
+
+        <h2 class="header">About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid animi praesentium facere quis sequi. Quos, cupiditate a? Perferendis rerum sequi, laborum culpa repudiandae excepturi nulla hic facilis consectetur corporis? Voluptate expedita beatae corporis. Eligendi asperiores praesentium repellendus similique ad dicta vitae suscipit nulla unde nostrum, consequuntur inventore, sint quam excepturi doloremque aut placeat neque blanditiis quis nihil incidunt sequi facilis hic architecto? Praesentium dolorem at quia recusandae? Sit placeat, nemo ab saepe blanditiis exercitationem nam impedit nostrum eius cum quam natus, ipsum magni magnam adipisci ut doloribus ad est a voluptatum autem! Quia, porro accusamus doloribus quibusdam corporis eum voluptatem.</p>
+      <a href="#" style="background-color:#6f4037;"class="btn waves-effect waves-light">Read More </a>
+      
+      </div>
+    </div>
+  </section>
+
+
+  <section class="fservice">
+    <div class="row container" >
+      <div class="col s12 l4 center" style="padding:50px ">
+      
+        <i class="large material-icons icon-coffee">local_dining
+           
+        </i>
+        <h6 class="header">Best serving</h6>
+      </div>
+      <div class="col s12 l4 center" style="padding:50px ">
+        
+      
+        <i class="large material-icons icon-coffee">local_offer
+
+        </i>
+        <h6 class="header">Offers</h6>
+      </div>
+      <div class="col s12 l4 center" style="padding:50px ">
+        <i class="large material-icons icon-coffee">local_shipping
+
+        </i> 
+        <h6 class="header">Free Delivery</h6>
+      </div>
+      
+
+
+        </div>
+  </section>
+
+
+  <section class="fcarosel">
+<h3 class="header center container">Our Customers Review</h3>
+    <div class="carousel">
+    <div class="card-panel white-text carousel-item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, in!
+  </div>
+  <div class="card-panel  white-text  carousel-item">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, in!
+</div>
+<div class="card-panel  white-text  carousel-item">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, in!
+</div>
+<div class="card-panel  white-text  carousel-item">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, in!
+</div>
+<div class="card-panel   white-text  carousel-item">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, in!
+</div>
+
+
+    </div>
+  </section>
+
+<section class="ffooter">
+
+
+
+  <footer class="footer-one">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col l6 center s6">
+          <h4 class="white-text ">Contact Us</h4>
+          <p class="grey-text">
+           
+  <i class="material-icons" style="padding-right:5px;">my_location</i>  XYZ 007,Mumbai,India
+          </p>
+          <p class="grey-text " >
+            <i class="material-icons" style="padding-right:5px;">phone_iphone</i> +919944732590
+          </p>
+        </div>
+        <div class="col l6 center s6"><h4 class="white-text">Social Media</h4>
+        
+        
+          <ul>
+              <li><a href="#" class="grey-text">FaceBook</a></li>
+              <li><a href="#" class="grey-text">Instagram</a></li>
+              <li><a href="#" class="grey-text">Twitter</a></li>
+            </ul>
+        
+        </div>
+       
+      </div>
+      
+    </div>
+    <div class="row footer-two">
+        
+      <div class="row">
+      <div class="col  l6 s6" >
+
+        <p class="white-text">
+          &copy; CafeKing
+        </p>
+      </div>
+      <div class="col l6  s6">
+
+        <p class="white-text right">Designed by Dk_19 (Source:LOC)</p>
+      </div>
+    </div>
+  </div>
+  </footer>
+</section>
+
+
+
+    <section class="infomodal">
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <h4>Welcome</h4>
+        </div>
+        <div class="model-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+            >Agree</a
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <!-- jquery -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- materialzed js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- custom js -->
+  <script src="js/loader.js"></script>
+</html>
